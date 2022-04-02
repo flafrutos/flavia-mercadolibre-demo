@@ -5,7 +5,7 @@ const path = require("path");
 app.listen(process.env.PORT || 3000, () =>
   console.log("Servidor en puerto 3000")
 );
-
+app.listen(PORT);
 app.use(express.static(path.join(__dirname, "public")));
 //Le decis que es de recurso estatito
 
