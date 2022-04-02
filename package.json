@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-9-3",
+  "version": "1.0.0",
+  "description": "Ejercicio 09/03",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Flavia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

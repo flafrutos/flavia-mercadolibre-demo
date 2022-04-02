@@ -1,0 +1,186 @@
+.delivery-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition: transform 0.5s;
+}
+
+.price {
+  flex-grow: 0.33;
+}
+
+.description {
+  width: 100%;
+}
+
+.discount {
+  flex-grow: 0.66;
+}
+
+.product-card {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  margin-bottom: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.site,
+.login-navbar {
+  display: none;
+}
+
+.description-box {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  border-top: 1px solid #ebebeb;
+}
+
+.checkbox-input {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.button-primary {
+  background-color: #1259c3;
+  color: white;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.button-gray {
+  background-color: #666;
+  color: white;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.radio-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox-input {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.form-format {
+  justify-content: center;
+}
+
+#search {
+  width: 100%;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.searcher {
+  padding: 6px;
+  position: relative;
+}
+
+.button-search {
+  /* position: absolute; */
+  border-radius: 5px;
+  border: none;
+  color: #666;
+  background-color: white;
+}
+
+
+/* tablet */
+
+@media (min-width: 480px) {
+  .product-card {
+    width: calc(50% - 16px);
+  }
+
+}
+
+/* laptop */
+@media (min-width: 768px) {
+
+  .product-card {
+    box-shadow: none;
+    width: calc(25% - 16px);
+  }
+
+  .product-card .description {
+    display: none;
+  }
+
+  .product-card:hover .description {
+    display: block;
+    /* Va encima de la product card porque la descripcion no se ve*/
+  }
+
+  .product-card:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .site,
+  .login-navbar {
+    display: block;
+
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .delivery-icon:hover {
+    transform: rotate(-90deg);
+  }
+
+  .icono-fotter:hover {
+    color: #39b54a;
+
+  }
+
+  .bottom-header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .site,
+  .login-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-top: 20px;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 0.5;
+    padding-bottom: 20px;
+  }
+section.top-header{
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+img.logo, form.searcher, p.head{
+  flex-grow: 1;
+ width: 20%;
+
+}
+}
