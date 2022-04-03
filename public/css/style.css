@@ -127,8 +127,7 @@
    
   }
 
-  #confirmPassword,
-  #password {
+  #confirmPassword{ 
     width: 100%;
   }
 
