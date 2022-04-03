@@ -69,23 +69,21 @@
 
 
         <form class="form-format margin-y-16" action="" method="get">
+
+            <label class="hidden" for="user">Nombre de usuari@: </label>
+            <input class="input-box" type="text" name="user" id="user" placeholder="Nombre de usuario" required>
+
+
+            <label class="hidden" for="password">Email</label>
+            <input class="input-box" type="email" name="email" id="email" placeholder="Email" required>
+
+            <label class="hidden" for="password">Contraseña: </label>
+            <input class="input-box" type="password" name="password" id="password" placeholder="Ingresa tu contraseña"
+                required>
+
+
             <div>
-                <label class="hidden" for="user">Nombre de usuari@: </label>
-                <input class="input-box" type="text" name="user" id="user" placeholder="Nombre de usuario" required>
-
-
-                <label class="hidden" for="password">Email</label>
-                <input class="input-box" type="email" name="email" id="email" placeholder="Email" required>
-
-                <label class="hidden" for="password">Comtraseña: </label>
-                <input class="input-box" type="password" name="password" id="password" placeholder="Elige tu contraseña"
-                    required>
-
-
-
                 <a href="/"> <button class="button-primary" type="submit">Enviar</button></a>
-
-
 
             </div>
         </form>
