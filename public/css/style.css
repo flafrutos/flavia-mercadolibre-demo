@@ -126,7 +126,10 @@
   top: 9px;
 
 }
-
+p.head {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 /* tablet */
 
