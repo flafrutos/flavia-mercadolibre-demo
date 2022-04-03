@@ -76,6 +76,10 @@
 .input-box {
   display: flex;
   justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .checkbox-input {
@@ -124,10 +128,11 @@
   .form-format .input-box {
     width: 50%;
     margin-top: 20px;
+ 
    
   }
 
-  #confirmPassword{ 
+  #confirmPassword,#password{ 
     width: 100%;
   }
 
@@ -220,7 +225,7 @@
     border: revert;
   }
   .form-format .input-box {
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
 
   
