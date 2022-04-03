@@ -57,6 +57,11 @@ main {
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+.margin-y-10{
+  margin-top: 10px;
+  margin-bottom: 109x;
+}
 .burger-menu {
   width: 40px;
   margin: 0 auto;
@@ -87,6 +92,3 @@ main {
 }
 
 
-/* .submit {
-  position: relative;
-} */
