@@ -243,11 +243,5 @@ p.head {
     padding-left: 10px;
   }
 
-  .button-search {
-    color: black;
-    top: initial;
-    right: initial;
-    border: revert;
-  }
 
 }
