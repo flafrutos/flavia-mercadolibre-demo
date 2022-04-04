@@ -80,7 +80,9 @@ main {
   justify-content: space-around;
   text-align: center;
   padding: 20px;
+  flex-direction: column;
 }
+
 
 .top-header {
   display: flex;
