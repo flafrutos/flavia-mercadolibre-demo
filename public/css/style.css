@@ -105,8 +105,9 @@
 
 #search {
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 6px;
+  border:none
 }
 
 .categories {
@@ -243,5 +244,12 @@ p.head {
     padding-left: 10px;
   }
 
+  .button-search {
+    color: black;
+    top: initial;
+    right: initial;
+    border: black;
+    font-size: 16px;
+  }
 
 }
