@@ -138,6 +138,10 @@ p.head {
   padding-bottom: 15px;
 }
 
+.reset{
+  text-decoration: underline;
+}
+
 /* tablet */
 
 @media (min-width: 480px) {
